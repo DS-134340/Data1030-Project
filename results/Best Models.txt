@@ -1,0 +1,93 @@
+
+Lasso
+
+best model parameters: 1e-07
+corresponding validation score: 0.08951492183965114
+test score: 0.08785433962237908
+best model parameters: 1e-07
+corresponding validation score: 0.08802668081343365
+test score: 0.08797100619156659
+best model parameters: 1e-07
+corresponding validation score: 0.08743352569725793
+test score: 0.08693195920063623
+best model parameters: 1e-07
+corresponding validation score: 0.08894966081738376
+test score: 0.08916462432195785
+best model parameters: 1e-07
+corresponding validation score: 0.08863244137920218
+test score: 0.08810369199894083
+best model parameters: 1e-07
+corresponding validation score: 0.08832557780293294
+test score: 0.08785255577904047
+
+
+Ridge
+
+best model parameters: 1e-07
+corresponding validation score: 0.08951472803879082
+test score: 0.08785404549417367
+best model parameters: 1e-07
+corresponding validation score: 0.08802644156166324
+test score: 0.08796424437316608
+best model parameters: 1e-07
+corresponding validation score: 0.0874332321190433
+test score: 0.08692292643930062
+best model parameters: 1e-07
+corresponding validation score: 0.08894899843093694
+test score: 0.08915692121863422
+best model parameters: 1e-07
+corresponding validation score: 0.08862746863184023
+test score: 0.08810329436387354
+best model parameters: 1e-07
+corresponding validation score: 0.08832555865908474
+test score: 0.0878522350920783
+
+
+Decision Tree
+
+best model parameters: {'splitter': 'best', 'max_features': 'auto', 'max_depth': 10}
+corresponding validation score: 0.07664530882648066
+test score: 0.07560962129897625
+best model parameters: {'splitter': 'best', 'max_features': 'auto', 'max_depth': 10}
+corresponding validation score: 0.07564348260603183
+test score: 0.07487148906129344
+best model parameters: {'splitter': 'best', 'max_features': 'auto', 'max_depth': 10}
+corresponding validation score: 0.0752087768492371
+test score: 0.07603132255514149
+best model parameters: {'splitter': 'best', 'max_features': 'auto', 'max_depth': 9}
+corresponding validation score: 0.07749522886994448
+test score: 0.07728403085435401
+best model parameters: {'splitter': 'best', 'max_features': 'auto', 'max_depth': 10}
+corresponding validation score: 0.07616916101991399
+test score: 0.07618618098909186
+best model parameters: {'splitter': 'best', 'max_features': 'auto', 'max_depth': 9}
+corresponding validation score: 0.07727899481727733
+test score: 0.078011412350097
+
+
+Random Forest
+
+best model parameters: {'n_estimators': 800, 'max_depth': 14}
+corresponding validation score: 0.06727284717230257
+test score: 0.06659493904316631
+best model parameters: {'n_estimators': 600, 'max_depth': 14}
+corresponding validation score: 0.06704162927993443
+test score: 0.06618977282689555
+best model parameters: {'n_estimators': 700, 'max_depth': 14}
+corresponding validation score: 0.06579882021743881
+test score: 0.06627634299134375
+best model parameters: {'n_estimators': 700, 'max_depth': 14}
+corresponding validation score: 0.06769307793576879
+test score: 0.06711135829114116
+best model parameters: {'n_estimators': 600, 'max_depth': 14}
+corresponding validation score: 0.06692970581846498
+test score: 0.0665788716207858
+best model parameters: {'n_estimators': 800, 'max_depth': 14}
+corresponding validation score: 0.06759950631842873
+test score: 0.06689948547313819
+
+
+lasso_scores = [0.08785434, 0.08797101, 0.08693196, 0.08916462, 0.08810369, 0.08785256]
+ridge_scores = [0.08785405, 0.08796424, 0.08692293, 0.08915692, 0.08810329, 0.08785224]
+dtreg_scores = [0.07560962, 0.07487149, 0.07603132, 0.07728403, 0.07618618, 0.07801141]
+rfreg_scores = [0.06659494, 0.06618977, 0.06627634, 0.06611136, 0.06657887, 0.06689949]
